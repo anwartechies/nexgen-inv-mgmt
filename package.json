@@ -1,0 +1,14 @@
+{
+  "name": "nexgen-inventory",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server i && npm --prefix mobile i && npm --prefix admin-web i",
+    "db:create": "npm --prefix server run db:create",
+    "seed": "npm --prefix server run seed",
+    "dev": "concurrently -n api,mobile,admin -c yellow,cyan,magenta \"npm --prefix server run dev\" \"npm --prefix mobile run dev\" \"npm --prefix admin-web run dev\"",
+    "build": "npm --prefix mobile run build && npm --prefix admin-web run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

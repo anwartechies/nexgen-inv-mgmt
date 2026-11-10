@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NexGen Inventory</string>
+    <string name="title_activity_main">NexGen Inventory</string>
+    <string name="package_name">com.nexgen.inventory</string>
+    <string name="custom_url_scheme">com.nexgen.inventory</string>
+</resources>

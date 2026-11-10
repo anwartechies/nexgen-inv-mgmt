@@ -1,0 +1,6 @@
+{
+  "appId": "com.nexgen.inventory",
+  "appName": "NexGen Inventory",
+  "webDir": "dist",
+  "server": { "androidScheme": "http", "cleartext": true }
+}

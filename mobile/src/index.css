@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Manrope, system-ui, sans-serif;
+  --color-navy: #14213D;
+  --color-navy-2: #0B1530;
+  --color-gold: #C9A227;
+  --color-gold-soft: #F6EFD9;
+  --color-gold-ink: #6B5410;
+  --color-gold-text: #8A6D10;
+  --color-gold-muted: #D8C88F;
+  --color-bg: #F4F5F8;
+  --color-line: #E6E8EF;
+  --color-line-2: #EEF0F5;
+  --color-field: #D5D9E2;
+  --color-muted: #5A6478;
+  --color-warn-bg: #FEF3C7;
+  --color-warn: #92400E;
+  --color-bad-bg: #FFE4DE;
+  --color-bad: #B42318;
+  --shadow-card: 0 2px 12px rgba(20, 33, 61, 0.07);
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: var(--color-bg); color: var(--color-navy); font-family: var(--font-sans); -webkit-tap-highlight-color: transparent; }
+input, select, textarea, button { font: inherit; color: inherit; }
